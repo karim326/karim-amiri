@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+
+header {
+  background: linear-gradient(135deg, #6bc1ff, #b0e0ff);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin: 10px 0;
+}
+
+.galerie {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.galerie img {
+  width: 30%;
+  border-radius: 10px;
+}
+
+blockquote {
+  background: #eef;
+  padding: 20px;
+  border-left: 5px solid #6bc1ff;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button, .btn {
+  background: #6bc1ff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  margin-top: 10px;
+}
+
+button:hover, .btn:hover {
+  background: #56aee0;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: white;
+  font-size: 20px;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profil-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid rgb(52, 193, 200);
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: transform 0.5s ease;
+}
+
+
+/* Classe à ajouter dynamiquement */
+.profil-img.zoom {
+  transform: scale(1.5);
+
+
+}
+
